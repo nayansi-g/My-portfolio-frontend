@@ -19,7 +19,7 @@ function App() {
 
   const getPortfolioData = async () => {
     try {
-      const response = await axios.get("/api/portfolio/get-portfolio-data")
+      const response = await axios.get("https://my-portfolio-nayansi-56d21ff8a666.herokuapp.com/api/portfolio/get-portfolio-data")
       dispatch(SetPortfolioData(response.data));
 
     } catch (error) {

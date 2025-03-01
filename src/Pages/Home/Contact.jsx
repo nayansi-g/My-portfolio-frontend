@@ -18,7 +18,7 @@ const Contact = () => {
     console.log('Form Data:', formData);
 
     try {
-      const response = await fetch('http://localhost:4000/api/portfolio/contact', {
+      const response = await fetch('https://my-portfolio-nayansi-56d21ff8a666.herokuapp.com/api/portfolio/contact', {
         method: 'POST',
         body: JSON.stringify(formData),
         headers: { 'Content-Type': 'application/json' },
