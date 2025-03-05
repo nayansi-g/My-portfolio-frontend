@@ -21,9 +21,9 @@ const Intro = () => {
         <p className="text-white text-center md:text-left w-full md:w-2/3 leading-relaxed">
           {description || ""}
         </p>
-        <button className="border-2 border-gray-900 bg-white text-gray-900 font-semibold px-6 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900">
-          Get Started
-        </button>
+        <a href="/Resume.pdf"  download="Nayansi_Resume.pdf"><button className="border-2 mt-4 border-gray-900 bg-gray-900 text-white font-semibold px-6 py-1 rounded-lg transition-all duration-300 hover:bg-gray-900">
+          Download Resume
+        </button></a>
       </div>
     </section>
   )

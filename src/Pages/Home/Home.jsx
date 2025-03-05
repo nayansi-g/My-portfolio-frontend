@@ -1,36 +1,3 @@
-
-// import React from 'react';
-// import Header from '../../Components/Header';
-// import Intro from './Intro';
-// import About from './About';
-// import Skills from './Skills';
-// import Projects from './Projects';
-// import Contact from './Contact';
-// import Footer from './Footer';
-// import { useSelector } from 'react-redux';
-
-// const Home = () => {
-//   const {portfolioData} = useSelector((state)=>state.root)
-//   return (
-//     <>
-//       <Header />
-//      {portfolioData &&  (<div className="bg-zinc-700 px-40 py-20"> 
-//         <section id="home"><Intro /></section>  
-//         <section id="about"><About /></section>
-//         <section id="projects"><Projects /></section>
-//         <section id="skills"><Skills /></section>
-//         <section id="contact"><Contact /></section>
-//       </div> )}
-//       <Footer />
-//     </>
-//   );
-// };
-
-// export default Home;
-
-
-
-
 import React, { useEffect, useState } from 'react';
 import Header from '../../Components/Header';
 import Intro from './Intro';
